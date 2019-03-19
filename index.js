@@ -10,8 +10,8 @@ function yourAnimal() {var animal = 'cat';
 
 function add2(n){var two = 2; return n + two}
 
-function funkyFunction(){function(){
-  return function() {
+function funkyFunction(){function a(){
+  return function a() {
     return "FUNKY!"}
 }}
 
