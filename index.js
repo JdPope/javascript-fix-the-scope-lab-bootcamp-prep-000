@@ -19,6 +19,6 @@ var funkyFunction = function (){
 // NOTE: you only need to modify the code below this line.
 function fun(){funkyFunction}
 var theFunk = fun()
-theFunk()
+
 
 
