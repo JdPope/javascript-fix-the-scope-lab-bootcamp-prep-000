@@ -8,7 +8,7 @@ function yourAnimal() {var animal = 'cat';
   return animal
 }
 
-function add2(){var n = 6; return n++}
+function add2(n){return n + two}
 
 var funkyFunction = function() {
   return function() {
