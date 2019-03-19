@@ -10,7 +10,7 @@ function yourAnimal() {var animal = 'cat';
 
 function add2(n){var two = 2; return n + two}
 
-funkyFunction = function() {
+var funkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
@@ -18,4 +18,5 @@ funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-function theFunk(){return funkyFunction}
+var theFunk = funkyFunction
+calllog
